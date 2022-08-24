@@ -1,0 +1,13 @@
+.container-news {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #dddedf;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.container-news-header {
+    width: 100%;
+}
+.container-news-report{
+}

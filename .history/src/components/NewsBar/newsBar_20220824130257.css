@@ -1,0 +1,15 @@
+.container-newsBar{
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px auto;
+
+}
+.container-newsBar-buttons{
+    gap: 20px;
+}
+.container-newsBar-buttons__button{
+    outline: none;
+    background-color:var(--body-bg-color);
+    border:none;
+    font-weight: 700;
+}

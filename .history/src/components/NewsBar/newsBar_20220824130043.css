@@ -1,0 +1,9 @@
+.container-newsBar{
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px auto;
+
+}
+.container-newsBar-buttons{
+    gap: 20px;
+}
