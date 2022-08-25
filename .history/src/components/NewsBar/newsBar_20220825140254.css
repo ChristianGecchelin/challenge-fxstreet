@@ -19,9 +19,6 @@
   width: 21px;
   height: 21px;
 }
-.container-filter{
-  display: none;
-}
 @media (min-width: 719px) {
   .container-newsBar {
     width: 500px;
@@ -29,9 +26,9 @@
 }
 @media (min-width: 1000px) {
   .container-newsBar {
+    width: 800px;
   }
   .container-filter {
-    display: flex;
     gap: 10px;
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
@@ -45,7 +42,6 @@
     font-weight: 400;
     font-size: 1.47rem;
     line-height: 2rem;
-    border:none;
-    cursor:pointer;
+    border:none
   }
 }

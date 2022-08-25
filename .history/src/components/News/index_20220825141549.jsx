@@ -8,13 +8,16 @@ export const News = () => {
   const newsFiltered = mockJSON.filter((element) => {
     return element.isPopular === popular;
   });
+  console.log(newsFiltered);
   const sortedNews = newsFiltered
     .map((obj) => {
-      return { ...obj, publicationTime: new Date(obj.publicationTime) };
+      return { ...obj, date: new Date(obj.publicationTime) };
     })
     .sort((a, b) => {
+      debugger;
       return b.publicationTime - a.publicationTime;
     });
+  console.log(sortedNews);
   return (
     <div>
       {sortedNews.map((news) => (

@@ -15,6 +15,7 @@ export const News = () => {
     .sort((a, b) => {
       return b.publicationTime - a.publicationTime;
     });
+  console.log(sortedNews);
   return (
     <div>
       {sortedNews.map((news) => (

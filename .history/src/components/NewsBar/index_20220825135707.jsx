@@ -52,10 +52,7 @@ export const NewsBar = () => {
         )}
       </div>
       {window.screen.width > 1000 ? (
-        <div className="display-flex-row container-filter">
-          <p>Show:</p>
-          <button>All</button>
-        </div>
+        <div></div>
       ) : (
         <img className="container-newsBar__img " src={filter} alt="filter" />
       )}

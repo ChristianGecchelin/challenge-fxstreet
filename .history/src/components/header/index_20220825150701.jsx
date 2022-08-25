@@ -8,7 +8,13 @@ export const Header = () => {
         <img src={logo} alt="logo" />
       </a>
 
-      <div className={"display-flex-row button-container"}>
+      <div
+        className={
+          window.screen.width > 1000
+            ? "display-flex-row button-container"
+            : "display-flex-row button-container"
+        }
+      >
         <button className="button-container__button button-container__button--circle"></button>
         <button className="button-container__button button-container__button--circle"></button>
       </div>
