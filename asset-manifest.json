@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/challenge-fxstreet/static/css/main.179ff391.css",
+    "main.js": "/challenge-fxstreet/static/js/main.fc4c9ab7.js",
+    "static/js/787.2974fe0f.chunk.js": "/challenge-fxstreet/static/js/787.2974fe0f.chunk.js",
+    "static/media/emptyHeart.png": "/challenge-fxstreet/static/media/emptyHeart.c412cbaead4744166c20.png",
+    "static/media/clock.png": "/challenge-fxstreet/static/media/clock.45b0736b20ad251e6cdb.png",
+    "static/media/hidden.png": "/challenge-fxstreet/static/media/hidden.a81cfb08e8b44aba3209.png",
+    "static/media/filledHeart.png": "/challenge-fxstreet/static/media/filledHeart.556c78a5a9b89d6b2eeb.png",
+    "static/media/search.png": "/challenge-fxstreet/static/media/search.9a6363c7d479511a5553.png",
+    "static/media/logo.PNG": "/challenge-fxstreet/static/media/logo.6a24e0a86e383f7e9230.PNG",
+    "index.html": "/challenge-fxstreet/index.html",
+    "main.179ff391.css.map": "/challenge-fxstreet/static/css/main.179ff391.css.map",
+    "main.fc4c9ab7.js.map": "/challenge-fxstreet/static/js/main.fc4c9ab7.js.map",
+    "787.2974fe0f.chunk.js.map": "/challenge-fxstreet/static/js/787.2974fe0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.179ff391.css",
+    "static/js/main.fc4c9ab7.js"
+  ]
+}
