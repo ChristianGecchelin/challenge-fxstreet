@@ -10,7 +10,8 @@ import saved from "../../assets/saved.png";
 import option from "../../assets/option.png";
 import "./news.css";
 export const Article = ({ news }) => {
-  const { modal, setModal } = useContext(Context);
+  const { modal, setModal, modalHideOptions, setModalHideOptions } =
+    useContext(Context);
 
   const [articleLiked, setArticleLiked] = useState(false);
   const [articleSaved, setArticleSaved] = useState(false);
@@ -21,7 +22,6 @@ export const Article = ({ news }) => {
   let { content } = news;
 
   let saveImageURL, likeImageURL, likeText, saveText;
-
   if (articleLiked === false) {
     likeImageURL = emptyHeart;
     likeText = "Like";

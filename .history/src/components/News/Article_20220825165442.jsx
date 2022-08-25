@@ -21,7 +21,6 @@ export const Article = ({ news }) => {
   let { content } = news;
 
   let saveImageURL, likeImageURL, likeText, saveText;
-
   if (articleLiked === false) {
     likeImageURL = emptyHeart;
     likeText = "Like";
