@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
+    gap: 25px;
   }
   .body-desktop-view{
     flex-wrap: wrap;

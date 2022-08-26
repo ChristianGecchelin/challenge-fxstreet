@@ -33,7 +33,7 @@
   
   .container-filter {
     display: flex;
-    gap: 11px;
+    gap: 10px;
     
   }
   .container-filter p{
@@ -41,18 +41,15 @@
     font-weight: 400;
     font-size: 1.47rem;
     line-height: 2rem;
-    width: 50px;
-    color:#49494F;
   }
   .container-filter button{
     background:none;
     outline: none;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1.76rem;
-    line-height: 2.08rem;
+    font-weight: 400;
+    font-size: 1.47rem;
+    line-height: 2rem;
     border:none;
     cursor:pointer;
-    color:#49494F;
   }
 }

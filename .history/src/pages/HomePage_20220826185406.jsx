@@ -3,7 +3,6 @@ import { BodyNews } from "../components/BodyNews";
 import { Footer } from "../components/Footer";
 import { DesktopNav } from "../components/DesktopNav";
 import "./homePage.css";
-
 export const HomePage = () => {
   if (window.screen.width < 1000) {
     return (
@@ -17,7 +16,7 @@ export const HomePage = () => {
     return (
       <div className="container-desktop-view">
         <Header />
-        <div className="display-flex-row body-desktop-view">
+        <div>
           <DesktopNav />
           <BodyNews />
           <Footer />
