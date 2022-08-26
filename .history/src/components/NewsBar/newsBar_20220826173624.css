@@ -1,6 +1,6 @@
 .container-newsBar {
   justify-content: space-between;
-  min-width: 375px;
+  min-width: 300px;
   padding: 34px 17px 10px 15px;
 }
 .container-newsBar-buttons {

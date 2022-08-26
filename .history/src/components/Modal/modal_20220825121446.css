@@ -1,7 +1,0 @@
-.container-modal{
-    position: fixed;
-    top:50%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 500;
-    width: 100vw;
-}

@@ -1,8 +1,0 @@
-.container-modal{
-    position: fixed;
-    top:50%;
-    left:50vw;
-    background-color: rgba(0, 0, 0, 0.1);
-    z-index: 500;
-    width: 100vw;
-}

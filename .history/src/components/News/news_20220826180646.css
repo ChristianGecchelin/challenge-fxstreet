@@ -130,13 +130,6 @@ hr {
 .container-news-option img {
   width: 21px;
 }
-
-.container-news-option .red {
-  color: red;
-}
-.container-news-option .green {
-  color: green;
-}
 @media (min-width: 719px) {
   .container-news {
     min-width: 500px;

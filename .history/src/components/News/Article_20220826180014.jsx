@@ -106,13 +106,13 @@ export const Article = ({ news }) => {
       <div className="display-flex-row container-news-options">
         <div className="container-news-option">
           <img src={likeImageURL} onClick={handleLike} alt="emptyHeart" />
-          <p className={articleLiked ? "red" : ""}>{likeText}</p>
+          <p>{likeText}</p>
         </div>
         <div className="container-news-option container-news-option__save">
           <img src={saveImageURL} onClick={handleSave} alt="save" />
-          <p className={articleSaved ? "green" : ""}>{saveText}</p>
+          <p>{saveText}</p>
         </div>
-        <div className="container-news-option container-news-option__more-options">
+        <div className="container-news-option">
           <img onClick={handleModal} src={option} alt="options" />
         </div>
       </div>

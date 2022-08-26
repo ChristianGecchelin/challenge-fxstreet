@@ -2,7 +2,6 @@
   position: relative;
   width: 375px;
   margin: 9px auto;
-  margin-bottom: 12px;
   border: 1px solid #dddedf;
   border-radius: 4px;
   background-color: #ffffff;
@@ -92,7 +91,7 @@ hr {
   padding: 12px 15px 19px 13px;
 }
 .container-news-report div {
-  margin-bottom: 9px;
+  margin-bottom: 15px;
   font-size: 1.47rem;
   font-family: "Roboto", sans-serif;
   line-height: 2rem;
@@ -129,13 +128,6 @@ hr {
 }
 .container-news-option img {
   width: 21px;
-}
-
-.container-news-option .red {
-  color: red;
-}
-.container-news-option .green {
-  color: green;
 }
 @media (min-width: 719px) {
   .container-news {

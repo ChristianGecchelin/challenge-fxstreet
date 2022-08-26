@@ -36,7 +36,7 @@
   justify-content: flex-start;
   width: 100%;
   font-size: 1.4rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
   line-height: 2rem;
   gap: 10px;
@@ -60,7 +60,7 @@
   height: 100px;
   width: 100%;
   font-size: 1.6rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 2rem;
 }
@@ -75,7 +75,7 @@
 }
 .container-modal-options-form label {
   font-size: 1.47rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 2rem;
 }
@@ -89,7 +89,7 @@
   padding: 9.6px 10.9px;
   color: #1b1c23;
   font-size: 1.28rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 2.2rem;
 }

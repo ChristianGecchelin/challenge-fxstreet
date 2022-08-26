@@ -1,10 +1,10 @@
 .container-newsBar {
   justify-content: space-between;
-  min-width: 375px;
-  padding: 34px 17px 10px 15px;
+  min-width: 300px;
+  padding: 34px 195px 10px 15px;
 }
 .container-newsBar-buttons {
-  gap: 15px;
+  gap: 20px;
 }
 .container-newsBar-buttons__button {
   outline: none;
@@ -14,8 +14,6 @@
   font-weight: 700;
   font-size: 1.76rem;
   line-height: 2.1rem;
-  width: 75px;
-  text-align: left;
 }
 .container-newsBar__img {
   width: 21px;
