@@ -41,7 +41,8 @@ nav img {
     height: 100vh;
   }
   nav a {
-    margin: 14px 0px 14.78px 0px;
+    width: 137px;
+    margin: 47px 65.22px 14.78px 46px;
   }
   .button-container {
     display: none;

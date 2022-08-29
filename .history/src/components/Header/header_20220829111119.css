@@ -40,9 +40,6 @@ nav img {
     min-width: 0;
     height: 100vh;
   }
-  nav a {
-    margin: 14px 0px 14.78px 0px;
-  }
   .button-container {
     display: none;
   }
