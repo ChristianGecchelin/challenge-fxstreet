@@ -5,24 +5,14 @@ import { DesktopNav } from "../components/DesktopNav";
 import "./homePage.css";
 
 export const HomePage = () => {
-  if (window.screen.width < 1000) {
-    return (
-      <div className="container-desktop-view">
-        <Header />
+  return (
+    <div className="container-desktop-view">
+      <Header />
+      <div className="display-flex-row body-desktop-view">
+        <DesktopNav />
         <BodyNews />
         <Footer />
       </div>
-    );
-  } else {
-    return (
-      <div className="container-desktop-view">
-        <Header />
-        <div className="display-flex-row body-desktop-view">
-          <DesktopNav />
-          <BodyNews />
-          <Footer />
-        </div>
-      </div>
-    );
-  }
+    </div>
+  );
 };

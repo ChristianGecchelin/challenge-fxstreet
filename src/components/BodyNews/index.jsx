@@ -4,7 +4,7 @@ import { News } from "../News";
 import "./bodyNews.css";
 export const BodyNews = () => {
   return (
-    <section className={window.screen.width > 1000 ? "container-section" : ""}>
+    <section className="container-section">
       <NewsBar />
       <News />
     </section>

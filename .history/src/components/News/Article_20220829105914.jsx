@@ -47,7 +47,7 @@ export const Article = ({ news }) => {
   const handleModal = () => {
     setModal(!modal);
   };
-  const handleResize = () => {
+  const handlerScreen = () => {
     if (window.screen.width > 1000) {
       setScreen(true);
     } else {
@@ -55,8 +55,8 @@ export const Article = ({ news }) => {
     }
   };
   useEffect(() => {
-    handleResize();
-    window.addEventListener("resize", handleResize);
+    handlerScreen();
+    window.addEventListener("resize", handlerScreen);
   });
   return (
     <div className="container-news">

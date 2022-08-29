@@ -55,4 +55,7 @@
     cursor:pointer;
     color:#49494F;
   }
+  .container-newsBar__img{
+    display: none;
+  }
 }
